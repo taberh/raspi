@@ -40,7 +40,7 @@
             dataType: 'json'
           })
           .then(function(result) {
-            var img = $('<img />')
+            var $img = $('<img />')
             $img.attr('src', result.photo)
             $img.css('-webkit-transform', '180deg')
             $('.container').append($img)
