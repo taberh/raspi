@@ -42,7 +42,7 @@
           .then(function(result) {
             var $img = $('<img />')
             $img.attr('src', result.photo)
-            $img.css('-webkit-transform', '180deg')
+            $img.css('-webkit-transform', 'rotateX(180deg)')
             $('.container').append($img)
           }, function(err) {
             console.error(err)
