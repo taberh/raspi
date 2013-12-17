@@ -8,6 +8,11 @@
   "dependencies": {
     "bootstrap": "~3.0.0",
     "angular": "~1.2.5",
-    "requirejs": "~2.1.9"
+    "angular-animate": "~1.2.5",
+    "angular-route": "~1.2.5",
+    "angular-touch": "~1.2.5",
+    "angular-sanitize": "~1.2.5",
+    "requirejs": "~2.1.9",
+    "ionic": "~0.9.17-alpha"
   }
 }
