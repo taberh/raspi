@@ -1,12 +1,13 @@
 {
-    "name": "raspi",
-    "description": "",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "start" "sudo node app.js"
-    },
-    "dependencies": {
-        "restify": "2.6.1"
-    }
+  "name": "raspi",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production forever start -w app.js"
+  },
+  "dependencies": {
+    "restify": "2.6.1",
+    "node-conf": "0.0.6"
+  }
 }

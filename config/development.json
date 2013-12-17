@@ -1,0 +1,10 @@
+{
+    "version": "0.0.1",
+    "port": 8888,
+    "logs": {
+        "path": "./logs"
+    },
+    "photos": {
+        "path": "./photos"
+    }
+}

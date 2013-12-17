@@ -1,0 +1,13 @@
+{
+  "name": "ras pi",
+  "version": "0.0.1",
+  "author": [
+    "taberh <taber.huang@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "angular": "~1.2.5",
+    "requirejs": "~2.1.9"
+  }
+}
