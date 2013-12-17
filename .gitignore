@@ -5,3 +5,5 @@ node_modules/
 photos/
 logs/
 public/bower_components/
+
+!api/photos/
